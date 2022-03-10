@@ -1,5 +1,7 @@
 :root {
   --color-blue: #232d51;
+  --color-blue-light: #33384b;
+  --color-bg-light: #d8d8d8;
   --color-orange-red: #f04a0d;
   --color-pink: #fc4450;
   --color-white: #ebebed;
@@ -96,5 +98,21 @@ section.hero {
   width: 100%;
   display: block;
 }
-
 /* End of Hero Section  */
+
+/* Brief Section */
+section.brief {
+  background-color: var(--color-bg-light);
+  position: relative;
+  padding-bottom: 100px;
+  height: 800px;
+}
+section.brief .bg__dark {
+  height: 200px;
+  width: 80%;
+  background-color: var(--color-blue-light);
+  position: absolute;
+  right: 0;
+  top: -100px;
+}
+/* End of Brief Section */
