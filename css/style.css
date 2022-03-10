@@ -1,0 +1,39 @@
+:root {
+  --color-blue: #232d51;
+  --color-pink: #fc4450;
+}
+
+body {
+  background: #ebebed;
+}
+header {
+  padding: 30px 0;
+}
+header .logo h1 {
+  text-transform: capitalize;
+  font-family: OpenSans;
+  font-size: 20px;
+  font-weight: 800;
+  color: var(--color-blue);
+}
+header .logo h1 > span {
+  color: var(--color-pink);
+}
+header nav ul {
+  float: right;
+  margin: 5px 0;
+}
+header nav ul li {
+  float: left;
+  list-style-type: none;
+  margin: 0 25px;
+}
+
+header nav ul li a {
+  display: inline-block;
+  font-family: Mada;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--color-blue);
+}
