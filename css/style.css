@@ -300,6 +300,7 @@ section.magazine .article__style .bottom__section .bottom__section-pic img {
 section.profile {
   background-color: var(--color-light);
   padding: 50px 0px 100px 0;
+  position: relative;
 }
 section.profile .profile__pic {
   height: 540px;
@@ -312,6 +313,9 @@ section.profile .profile__pic img {
   display: block;
 }
 section.profile .profile__biography {
+  position: absolute;
+  top: 40px;
+  overflow: hidden;
 }
 section.profile .profile__biography h1 {
   text-transform: capitalize;
@@ -324,6 +328,10 @@ section.profile .profile__biography h1 {
 }
 section.profile .profile__biography h1 span {
   font-size: 40px;
+  background-color: var(--color-blue-light);
+  color: var(--color-light);
+  padding: 10px 20px;
+  border-bottom-right-radius: 15px;
 }
 /* End of Profile Section */
 
