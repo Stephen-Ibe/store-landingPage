@@ -176,7 +176,7 @@ section.brief .bg__dark {
   font-size: 14px;
 }
 .brief .collections {
-  padding: 120px 0px;
+  padding: 120px 0px 20px 0;
 }
 .brief .collections .header h1 {
   text-align: center;
@@ -233,5 +233,14 @@ section.brief .bg__dark {
   color: var(--color-blue-light);
   font-family: lato;
 }
-
+.brief .gallery__display .content .pic__display {
+  height: 300px;
+  width: 100%;
+  overflow: hidden;
+}
+.brief .gallery__display .content .pic__display img {
+  height: auto;
+  max-width: 100%;
+  overflow: block;
+}
 /* End of Brief Section */ ;
