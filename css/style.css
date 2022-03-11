@@ -1,9 +1,12 @@
 :root {
   --color-blue: #232d51;
   --color-blue-light: #33384b;
-  --color-bg-light: #d8d8d8;
+  --color-blue-lighter: #1797e3;
+  --color-light: #d8d8d8;
   --color-orange-red: #f04a0d;
   --color-pink: #fc4450;
+  --color-pink-light: #eb127e;
+
   --color-white: #ebebed;
   --text-white: #ffffff;
 }
@@ -102,17 +105,64 @@ section.hero {
 
 /* Brief Section */
 section.brief {
-  background-color: var(--color-bg-light);
+  background-color: var(--color-light);
   position: relative;
   padding-bottom: 100px;
   height: 800px;
+  top: -33px;
 }
 section.brief .bg__dark {
-  height: 200px;
-  width: 80%;
+  height: 240px;
+  width: 65%;
   background-color: var(--color-blue-light);
   position: absolute;
   right: 0;
-  top: -100px;
+  top: -70px;
 }
-/* End of Brief Section */
+.brief .social__icons {
+  position: relative;
+  top: 50px;
+  display: flex;
+}
+.brief .social__icons span {
+  flex-grow: 1;
+  padding-bottom: 10px;
+  text-align: center;
+}
+.brief .social__icons span a {
+  text-decoration: none;
+  font-size: 26px;
+  color: var(--color-blue-light);
+}
+.brief .social__icons span:nth-child(1) {
+  border-bottom: 3px solid var(--color-orange-red);
+}
+.brief .social__icons span:nth-child(2) {
+  border-bottom: 3px solid var(--color-orange-red);
+}
+.brief .social__icons span:nth-child(3) {
+  border-bottom: 3px solid var(--color-orange-red);
+}
+.brief .g__content {
+  position: relative;
+  z-index: 2;
+  font-family: Mada;
+}
+.brief .g__content .g__content-descriptions {
+  position: relative;
+  left: 100px;
+}
+.brief .g__content h4 {
+  color: var(--text-white);
+  font-weight: 800;
+  text-transform: capitalize;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.brief .g__content p {
+  color: var(--text-white);
+  font-weight: 500;
+  text-transform: capitalize;
+  font-size: 14px;
+}
+/* End of Brief Section */ ;
