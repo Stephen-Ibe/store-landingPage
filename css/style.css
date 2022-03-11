@@ -187,9 +187,51 @@ section.brief .bg__dark {
   color: var(--color-blue-light);
   margin-bottom: 40px;
 }
+.brief .collections .content .pic__display {
+  height: 550px;
+  width: 100%;
+  overflow: hidden;
+}
+.brief .collections .content .pic__display img {
+  height: auto;
+  max-width: 100%;
+  display: block;
+}
 .brief .collections .content .pic__story {
-  height: 200px;
+  height: 300px;
   background-color: var(--color-off-white);
+  padding: 50px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+.brief .collections .content .pic__story h1 {
+  position: absolute;
+  top: 30px;
+  left: -20px;
+  font-size: 250px;
+  font-family: open sans;
+  font-weight: 800;
+  color: var(--color-light);
+}
+.brief .collections .content .pic__story hr {
+  border: 1.5px solid var(--color-pink-light);
+  width: 30%;
+  margin: 0 auto;
+}
+.brief .collections .content .pic__story p {
+  position: relative;
+  z-index: 2;
+  margin-top: 20px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--color-blue-light);
+  font-family: lato;
 }
 
 /* End of Brief Section */ ;
