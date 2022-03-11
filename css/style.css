@@ -116,7 +116,7 @@ section.brief {
   background-color: var(--color-light);
   position: relative;
   padding-bottom: 100px;
-  top: -33px;
+  top: 0px;
 }
 section.brief .bg__dark {
   height: 240px;
@@ -124,7 +124,7 @@ section.brief .bg__dark {
   background-color: var(--color-blue-light);
   position: absolute;
   right: 0;
-  top: -70px;
+  top: -80px;
 }
 .brief .social__icons {
   position: relative;
@@ -176,7 +176,7 @@ section.brief .bg__dark {
   font-size: 14px;
 }
 .brief .collections {
-  padding: 120px 0px 20px 0;
+  padding: 100px 0px 20px 0;
 }
 .brief .collections .header h1 {
   text-align: center;
@@ -243,4 +243,55 @@ section.brief .bg__dark {
   max-width: 100%;
   overflow: block;
 }
-/* End of Brief Section */ ;
+/* End of Brief Section */
+
+/* Magazine Section */
+section.magazine {
+  background-color: var(--color-light);
+  padding: 100px 0px;
+}
+section.magazine .magazine__style {
+  height: 600px;
+  width: 100%;
+  overflow: hidden;
+}
+section.magazine .magazine__style img {
+  height: auto;
+  max-width: 100%;
+  display: block;
+}
+section.magazine .article__style {
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+}
+section.magazine .article__style .top__section {
+  height: 50%;
+  overflow: hidden;
+}
+section.magazine .article__style .top__section h1 {
+  text-transform: capitalize;
+  font-size: 60px;
+  line-height: 60px;
+  font-family: cormorant garamond;
+  font-weight: 700;
+  color: var(--color-blue-light);
+  margin-bottom: 40px;
+}
+section.magazine .article__style .top__section p {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--color-blue-light);
+  font-family: lato;
+}
+section.magazine .article__style .bottom__section .bottom__section-pic {
+  height: 300px;
+  overflow: hidden;
+  width: 100%;
+}
+section.magazine .article__style .bottom__section .bottom__section-pic img {
+  height: auto;
+  max-width: 100%;
+  display: block;
+}
+/* End of Magazine Section */
