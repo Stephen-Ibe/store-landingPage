@@ -295,3 +295,52 @@ section.magazine .article__style .bottom__section .bottom__section-pic img {
   display: block;
 }
 /* End of Magazine Section */
+
+/* Profile Section */
+section.profile {
+  background-color: var(--color-light);
+  padding: 50px 0px 100px 0;
+}
+section.profile .profile__pic {
+  height: 540px;
+  width: 100%;
+  overflow: hidden;
+}
+section.profile .profile__pic img {
+  height: auto;
+  max-width: 100%;
+  display: block;
+}
+section.profile .profile__biography {
+}
+section.profile .profile__biography h1 {
+  text-transform: capitalize;
+  font-family: cormorant garamond;
+  font-size: 70px;
+  font-weight: 700;
+  margin-bottom: 25px;
+  color: var(--color-blue-light);
+  line-height: 70px;
+}
+section.profile .profile__biography h1 span {
+  font-size: 40px;
+}
+/* End of Profile Section */
+
+/* Showroom Section*/
+section.showroom {
+  background-color: var(--color-off-white);
+  padding: 100px 0px;
+  border-bottom: 6px solid var(--color-blue-light);
+}
+section.showroom .showroom__pic {
+  height: 450px;
+  width: 100%;
+  overflow: hidden;
+}
+section.showroom .showroom__pic img {
+  height: auto;
+  max-width: 100%;
+  display: block;
+}
+/* End of Showroom Section */
