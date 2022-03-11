@@ -299,7 +299,7 @@ section.magazine .article__style .bottom__section .bottom__section-pic img {
 /* Profile Section */
 section.profile {
   background-color: var(--color-light);
-  padding: 50px 0px 100px 0;
+  padding: 50px 0px 100px 0px;
   position: relative;
 }
 section.profile .profile__pic {
@@ -314,7 +314,7 @@ section.profile .profile__pic img {
 }
 section.profile .profile__biography {
   position: absolute;
-  top: 40px;
+  top: 75px;
   overflow: hidden;
 }
 section.profile .profile__biography h1 {
@@ -332,6 +332,19 @@ section.profile .profile__biography h1 span {
   color: var(--color-light);
   padding: 10px 20px;
   border-bottom-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+section.profile .profile__biography .profile__biography-content {
+  padding-left: 12px;
+  border-left: 2px solid var(--color-pink-light);
+}
+section.profile .profile__biography .profile__biography-content p {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--color-blue-light);
+  font-family: mada;
+  line-height: 18px;
+  margin-bottom: 25px;
 }
 /* End of Profile Section */
 
