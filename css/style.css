@@ -212,7 +212,7 @@ section.brief .bg__dark {
 .brief .collections .content .pic__story h1 {
   position: absolute;
   top: 30px;
-  left: -20px;
+  left: 40px;
   font-size: 250px;
   font-family: open sans;
   font-weight: 800;
