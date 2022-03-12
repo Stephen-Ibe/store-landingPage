@@ -340,11 +340,42 @@ section.profile .profile__biography .profile__biography-content {
 }
 section.profile .profile__biography .profile__biography-content p {
   font-size: 14px;
-  font-weight: 600;
   color: var(--color-blue-light);
   font-family: mada;
   line-height: 18px;
   margin-bottom: 25px;
+}
+section.profile .profile__biography blockquote {
+  position: relative;
+  padding-left: 30px;
+}
+section.profile .profile__biography blockquote p {
+  font-family: pt serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  color: var(--color-blue-light);
+}
+
+section.profile .profile__biography blockquote p::before,
+section.profile .profile__biography blockquote p::after {
+  font-size: 55px;
+  color: var(--color-blue-light);
+}
+
+section.profile .profile__biography blockquote p::before {
+  content: '“';
+  float: left;
+  position: absolute;
+  top: 10px;
+  left: 0;
+}
+section.profile .profile__biography blockquote p::after {
+  content: '”';
+  float: right;
+  position: absolute;
+  bottom: -15px;
+  right: 0px;
 }
 /* End of Profile Section */
 
