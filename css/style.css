@@ -518,6 +518,7 @@ footer .footer__contact h1 {
   text-align: left;
   margin-bottom: 20px;
   border-bottom: 1px solid var(--color-white);
+  letter-spacing: 1px;
 }
 footer .footer__contact .footer__contact-details ul li {
   list-style: none;
@@ -556,8 +557,18 @@ footer .footer__contact .footer__contact-form form textarea::placeholder {
 footer .footer__contact .footer__contact-form form button {
   padding: 15px 50px;
   cursor: pointer;
+  transition: all 200ms ease-in-out;
 }
 footer .footer__contact .footer__contact-form form button:hover {
-  color: ;
+  background-color: var(--color-white);
+  color: var(--color-blue);
+}
+footer .footer__contact .footer__contact-form form button i {
+  margin-right: 10px;
+}
+footer .footer__contact .footer__contact-address p {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 20px;
 }
 /* End of Footer Section */
