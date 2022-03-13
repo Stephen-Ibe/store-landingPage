@@ -585,9 +585,12 @@ footer .footer__contact .footer__contact-address p {
     position: relative;
     top: -30px;
   }
+
+  /* hero */
+
   section.hero {
     height: 400px;
-    padding: 0 10px;
+    padding: 0px 10px;
   }
   .hero .hero__text {
     position: absolute;
@@ -615,10 +618,12 @@ footer .footer__contact .footer__contact-address p {
   .hero .hero__image img {
     width: 100%;
   }
+  /* end of hero */
 
   /* brief */
   section.brief {
     width: 100%;
+    padding-bottom: 0px;
   }
   section.brief .bg__dark {
     height: 150px;
@@ -649,7 +654,86 @@ footer .footer__contact .footer__contact-address p {
   .brief .brief__content .brief__content-descriptions p {
     font-size: 10px;
   }
-
+  .brief .collections {
+    padding: 0px 0px 20px 0px;
+  }
+  .brief .collections .header h1 {
+    font-size: 30px;
+  }
+  .brief .collections .collections__content {
+    width: 100%;
+    display: flex;
+  }
+  .brief .collections .collections__content .content {
+    height: auto;
+  }
+  .brief .collections .content .pic__display {
+    height: auto;
+  }
+  .brief .collections .content .pic__display img {
+    height: auto;
+  }
+  .brief .collections .content .pic__story {
+    height: AUTO;
+  }
+  .brief .collections .content .pic__story p {
+    font-size: 10px;
+  }
+  .brief .collections .content .pic__story h1 {
+    position: absolute;
+    top: 80px;
+    left: 28px;
+    font-size: 150px;
+  }
+  .brief .gallery__display .gallery {
+    display: flex;
+  }
   /* end of brief */
+  /* Magazine */
+  section.magazine {
+    padding: 0px 0px 40px 0px;
+  }
+  .mag {
+    display: flex;
+  }
+  section.magazine .magazine__style {
+    height: auto;
+    width: auto;
+    overflow: hidden;
+  }
+  section.magazine .article__style {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: auto;
+  }
+
+  section.magazine .article__style .top__section h1 {
+    font-size: 50px;
+    line-height: 50px;
+    margin-bottom: 20px;
+  }
+  section.magazine .article__style .top__section p {
+    font-size: 12px;
+  }
+  section.magazine .article__style .bottom__section {
+    margin-top: 20px;
+  }
+  section.magazine .article__style .bottom__section .bottom__section-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 10px 0;
+  }
+  section.magazine
+    .article__style
+    .bottom__section
+    .bottom__section-container
+    .bottom__section-pic {
+    height: auto;
+    width: 100%;
+  }
+
+  /* End of Magazine */
 }
 /* End of Media Queries */
