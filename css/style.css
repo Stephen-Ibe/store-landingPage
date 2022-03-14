@@ -689,6 +689,7 @@ footer .footer__contact .footer__contact-address p {
     display: flex;
   }
   /* end of brief */
+
   /* Magazine */
   section.magazine {
     padding: 0px 0px 40px 0px;
@@ -702,36 +703,23 @@ footer .footer__contact .footer__contact-address p {
     overflow: hidden;
   }
   section.magazine .article__style {
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
     width: 400px;
-    height: auto;
+    /* height: auto; */
   }
-
   section.magazine .article__style .top__section h1 {
     font-size: 50px;
     line-height: 50px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
   }
   section.magazine .article__style .top__section p {
     font-size: 12px;
   }
-  section.magazine .article__style .bottom__section {
-    margin-top: 20px;
-  }
   section.magazine .article__style .bottom__section .bottom__section-container {
     display: flex;
     flex-direction: row;
-    width: 100%;
-    padding: 10px 0;
-  }
-  section.magazine
-    .article__style
-    .bottom__section
-    .bottom__section-container
-    .bottom__section-pic {
-    height: auto;
-    width: 100%;
+    justify-content: space-evenly;
   }
 
   /* End of Magazine */
